@@ -1,0 +1,55 @@
+.controls {
+  display: flex;
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  /* margin-bottom: -100px; */
+}
+
+button {
+  display: inline-block;
+  border: none;
+  padding: 1rem 2rem;
+  margin: 0;
+  text-decoration: none;
+  color: #fefefe;
+  cursor: pointer;
+  text-align: center;
+  font-size: 1.2rem;
+  border: 1px solid #eee;
+  /* transition: background 250ms ease-in-out, 
+              transform 150ms ease;
+  -webkit-appearance: none;
+  -moz-appearance: none; */
+}
+
+button:hover,
+button:focus {
+  border: 1px solid #fff;
+}
+
+button:focus {
+  outline: 1px solid #fff;
+  outline-offset: -4px;
+}
+
+button:active {
+  transform: scale(0.99);
+}
+
+.hit {
+  background-color: #0b4d00;
+}
+
+.hit:hover {
+  background-color: #049b22;
+}
+
+.stand {
+  margin-right: 4px;
+  background-color: #854703;
+}
+
+.stand:hover {
+  background-color: #e78f28;
+}

@@ -1,0 +1,14 @@
+.hand {
+  display: inline-flex;
+  overflow-x: auto;
+  width: 400px;
+  margin-right: 30px;
+}
+
+.hand div:first-child {
+  margin-left: 0;
+}
+
+.hand div:last-child {
+  flex-shrink: 0;
+}
