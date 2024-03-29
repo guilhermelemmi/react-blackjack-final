@@ -1,0 +1,39 @@
+button {
+  display: inline-block;
+  border: none;
+  padding: 1rem 2rem;
+  margin: 0;
+  text-decoration: none;
+  color: #fefefe;
+  cursor: pointer;
+  text-align: center;
+  font-size: 1.2rem;
+  border: 1px solid #eee;
+}
+
+button:hover,
+button:focus {
+  border: 1px solid #fff;
+}
+
+button:focus {
+  outline: 1px solid #fff;
+  outline-offset: -4px;
+}
+
+.primary {
+  background-color: #0b4d00;
+}
+
+.primary:hover {
+  background-color: #049b22;
+}
+
+.secondary {
+  margin-right: 4px;
+  background-color: #854703;
+}
+
+.secondary:hover {
+  background-color: #e78f28;
+}

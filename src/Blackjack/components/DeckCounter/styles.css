@@ -1,0 +1,14 @@
+.deckCounter {
+  position: relative;
+  width: 100px;
+  height: 100px;
+  align-self: center;
+}
+
+.deckCounter p {
+  color: #fefefe;
+  position: absolute;
+  font-family: Arial, Helvetica, sans-serif;
+  top: 15%;
+  left: 40%;
+}

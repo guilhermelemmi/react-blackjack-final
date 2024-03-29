@@ -1,0 +1,27 @@
+.gameTableSection {
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-start;
+  min-height: 300px;
+  position: relative;
+  min-width: 600px;
+}
+
+.playerSection {
+  align-items: flex-start;
+  margin-top: 30px;
+  flex: 1;
+}
+
+.totalContainer {
+  height: 280px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+@media only screen and (max-width: 690px) {
+  .gameTableSection {
+    min-width: unset;
+  }
+}

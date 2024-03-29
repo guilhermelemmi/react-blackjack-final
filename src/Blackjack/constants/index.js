@@ -1,15 +1,20 @@
 export const GAME_STATUS = {
   INTRO: "INTRO",
-  START: "START",
-  PLAYING: "PLAYING",
-  END: "END",
+  PLAY: "PLAY",
+  STAND: "STAND",
+  RESULT: "RESULT",
 };
 
-export const CARD_ACTIONS = {
-  DEAL_PLAYER: "DEAL_PLAYER",
-  DEAL_DEALER: "DEAL_DEALER",
+export const GAME_ACTIONS = {
+  RESHUFFLE: "RESHUFFLE",
+  RESTART_GAME: "RESTART_GAME",
+  START_GAME: "START_GAME",
   NEW_HAND: "NEW_HAND",
-  TOGGLE_TURN: "TOGGLE_TURN",
+  DRAW_CARD: "DRAW_CARD",
+  STAND: "STAND",
   UPDATE_GAME_STATUS: "UPDATE_GAME_STATUS",
-  SET_GAME_WINNER: "SET_GAME_WINNER",
 };
+
+export const PLAYER = "player";
+export const DEALER = "dealer";
+export const PUSH = "push";
