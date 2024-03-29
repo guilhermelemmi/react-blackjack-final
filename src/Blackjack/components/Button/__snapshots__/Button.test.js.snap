@@ -3,7 +3,7 @@
 exports[`Button snapshot 1`] = `
 <div>
   <button
-    class="button undefined"
+    class="button primary"
   >
     Click me
   </button>

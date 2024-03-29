@@ -12,7 +12,7 @@ This is a basic implementation of the Blackjack game using React!
 
 ## How to run tests
 
-1. Run tests with `npm tests -- --coverage`
+1. Run tests with `npm test -- --coverage`
 2. Run storybook with `npm run storybook`
 
 ## TODO:
