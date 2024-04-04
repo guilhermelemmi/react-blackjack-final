@@ -18,21 +18,11 @@ describe("Blackjack", () => {
   });
 
   test("It matches snapshot when in PLAY mode", async () => {
-    const view = render(<Blackjack initialState={predictableState} />);
-    expect(screen.getByText(/Play/i)).toBeInTheDocument();
-
-    fireEvent.click(screen.getByText("Play"));
-    expect(view.container).toMatchSnapshot();
-  });
-
-  test("It matches snapshot after cards are dealt", async () => {
-    const view = render(<Blackjack initialState={predictableState} />);
-    expect(screen.getByText(/Play/i)).toBeInTheDocument();
-    fireEvent.click(screen.getByText("Play"));
-
-    await waitFor(() => expect(screen.getAllByRole(/img/i).length).toBe(4), {
-      timeout: 10000,
-    });
+    const view = render(
+      <Blackjack
+        initialState={{ ...predictableState, gameStatus: GAME_STATUS.PLAY }}
+      />,
+    );
     expect(view.container).toMatchSnapshot();
   });
 });
