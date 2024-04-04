@@ -1,0 +1,32 @@
+version: '3.4'
+
+x-common-variables: &common-variables
+  REACT_APP_SERVER_PORT: 8000
+
+services:
+  server:
+    build: ./server
+    expose:
+      - 8000
+    environment:
+      <<: *common-variables
+    ports:
+      - 8000:8000
+    volumes:
+      - ./server:/app
+    command: npm start
+  client:
+    build:
+      context: ./client
+      target: builder-client
+    ports:
+      - 3000:3000
+    volumes:
+      - ./client/public:/home/node/app/public
+      - ./client/src:/home/node/app/src
+      - ./client/package.json:/home/node/app/package.json
+    links:
+      - server
+    tty: true
+    environment:
+      NODE_ENV: 'development'

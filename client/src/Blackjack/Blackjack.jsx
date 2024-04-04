@@ -10,7 +10,7 @@ import useDealCards from "./hooks/useDealCards";
 import useDealerActions from "./hooks/useDealerActions";
 import "./Blackjack.css";
 
-function Blackjack ({ initialState }) {
+function Blackjack ({ initialState, gameRules }) {
   const [{
     dealerHand,
     deck,
@@ -48,7 +48,7 @@ function Blackjack ({ initialState }) {
   return (
     <div className="App">
       {gameStatus === GAME_STATUS.INTRO ? (
-        <MainMenu onStart={onGameStart}/>
+        <MainMenu onStart={onGameStart} gameRules={gameRules} />
       ) : (
         <>
           {gameStatus === GAME_STATUS.RESULT && (
