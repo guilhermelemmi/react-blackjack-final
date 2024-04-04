@@ -1,4 +1,4 @@
-import { fireEvent, render, screen, waitFor } from "@testing-library/react";
+import { render } from "@testing-library/react";
 import Blackjack from "./Blackjack";
 import Card from "./classes/Card";
 import { GAME_STATUS } from "./constants";
