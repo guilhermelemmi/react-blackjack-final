@@ -2,24 +2,20 @@
 
 exports[`Card Card closed matches snapshot 1`] = `
 <div>
-  <div>
-    <span
-      aria-label="Hole Card"
-      class="card closed"
-      role="img"
-    />
-  </div>
+  <div
+    aria-label="Hole Card"
+    class="card closed"
+    role="img"
+  />
 </div>
 `;
 
 exports[`Card Card opens matches snapshot 1`] = `
 <div>
-  <div>
-    <span
-      aria-label="Ace of Spades"
-      class="card _11"
-      role="img"
-    />
-  </div>
+  <div
+    aria-label="Ace of Spades"
+    class="card _11"
+    role="img"
+  />
 </div>
 `;

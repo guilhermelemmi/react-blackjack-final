@@ -13,22 +13,17 @@ exports[`Blackjack It matches snapshot after cards are dealt 1`] = `
       >
         <div
           class="hand"
-          data-test-id="dealerHand"
         >
-          <div>
-            <span
-              aria-label="Hole Card"
-              class="card closed"
-              role="img"
-            />
-          </div>
-          <div>
-            <span
-              aria-label="Four of Spades"
-              class="card _41"
-              role="img"
-            />
-          </div>
+          <div
+            aria-label="Hole Card"
+            class="card closed"
+            role="img"
+          />
+          <div
+            aria-label="Four of Spades"
+            class="card _41"
+            role="img"
+          />
         </div>
         <div
           class="totalContainer"
@@ -37,7 +32,7 @@ exports[`Blackjack It matches snapshot after cards are dealt 1`] = `
             class="deckCounter"
           >
             <p>
-              0
+              52
             </p>
             <svg
               fill="#dedede"
@@ -72,22 +67,17 @@ exports[`Blackjack It matches snapshot after cards are dealt 1`] = `
       >
         <div
           class="hand"
-          data-test-id="playerHand"
         >
-          <div>
-            <span
-              aria-label="Ace of Spades"
-              class="card _11"
-              role="img"
-            />
-          </div>
-          <div>
-            <span
-              aria-label="Three of Spades"
-              class="card _31"
-              role="img"
-            />
-          </div>
+          <div
+            aria-label="Ace of Spades"
+            class="card _11"
+            role="img"
+          />
+          <div
+            aria-label="Three of Spades"
+            class="card _31"
+            role="img"
+          />
         </div>
         <div
           class="totalContainer"
@@ -162,7 +152,6 @@ exports[`Blackjack It matches snapshot when in PLAY mode 1`] = `
       >
         <div
           class="hand"
-          data-test-id="dealerHand"
         />
         <div
           class="totalContainer"
@@ -206,7 +195,6 @@ exports[`Blackjack It matches snapshot when in PLAY mode 1`] = `
       >
         <div
           class="hand"
-          data-test-id="playerHand"
         />
         <div
           class="totalContainer"

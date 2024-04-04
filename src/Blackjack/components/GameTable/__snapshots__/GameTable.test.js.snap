@@ -10,22 +10,17 @@ exports[`GameTable It matches snapshot 1`] = `
     >
       <div
         class="hand"
-        data-test-id="dealerHand"
       >
-        <div>
-          <span
-            aria-label="Hole Card"
-            class="card closed"
-            role="img"
-          />
-        </div>
-        <div>
-          <span
-            aria-label="King of Spades"
-            class="card _131"
-            role="img"
-          />
-        </div>
+        <div
+          aria-label="Hole Card"
+          class="card closed"
+          role="img"
+        />
+        <div
+          aria-label="King of Spades"
+          class="card _131"
+          role="img"
+        />
       </div>
       <div
         class="totalContainer"
@@ -69,22 +64,17 @@ exports[`GameTable It matches snapshot 1`] = `
     >
       <div
         class="hand"
-        data-test-id="playerHand"
       >
-        <div>
-          <span
-            aria-label="Two of Spades"
-            class="card _21"
-            role="img"
-          />
-        </div>
-        <div>
-          <span
-            aria-label="Four of Spades"
-            class="card _41"
-            role="img"
-          />
-        </div>
+        <div
+          aria-label="Two of Spades"
+          class="card _21"
+          role="img"
+        />
+        <div
+          aria-label="Four of Spades"
+          class="card _41"
+          role="img"
+        />
       </div>
       <div
         class="totalContainer"
