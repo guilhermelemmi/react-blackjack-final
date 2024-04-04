@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`HandTotal Dealer's count matches snapshot 1`] = `
+<div>
+  <div
+    class="handTotal"
+  >
+    <div
+      class="count"
+    >
+      13
+    </div>
+    Dealer
+  </div>
+</div>
+`;
+
+exports[`HandTotal Player's count matches snapshot 1`] = `
+<div>
+  <div
+    class="handTotal"
+  >
+    <div
+      class="count"
+    >
+      19
+    </div>
+    Player
+  </div>
+</div>
+`;

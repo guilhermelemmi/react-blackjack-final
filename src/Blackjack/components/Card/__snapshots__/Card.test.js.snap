@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Card Card closed matches snapshot 1`] = `
+<div>
+  <div>
+    <span
+      aria-label="Hole Card"
+      class="card closed"
+      role="img"
+    />
+  </div>
+</div>
+`;
+
+exports[`Card Card opens matches snapshot 1`] = `
+<div>
+  <div>
+    <span
+      aria-label="Ace of Spades"
+      class="card _11"
+      role="img"
+    />
+  </div>
+</div>
+`;

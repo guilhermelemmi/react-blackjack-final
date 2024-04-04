@@ -1,0 +1,79 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Result Dealer's win matches snapshot 1`] = `
+<div>
+  <div
+    class="result"
+  >
+    <h2>
+      You Lost!
+    </h2>
+    <div
+      class="buttons"
+    >
+      <button
+        class="button secondary"
+      >
+        Restart
+      </button>
+      <button
+        class="button primary"
+      >
+        Continue
+      </button>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Result Player's win matches snapshot 1`] = `
+<div>
+  <div
+    class="result"
+  >
+    <h2>
+      You Won!
+    </h2>
+    <div
+      class="buttons"
+    >
+      <button
+        class="button secondary"
+      >
+        Restart
+      </button>
+      <button
+        class="button primary"
+      >
+        Continue
+      </button>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Result Push matches snapshot 1`] = `
+<div>
+  <div
+    class="result"
+  >
+    <h2>
+      Push!
+    </h2>
+    <div
+      class="buttons"
+    >
+      <button
+        class="button secondary"
+      >
+        Restart
+      </button>
+      <button
+        class="button primary"
+      >
+        Continue
+      </button>
+    </div>
+  </div>
+</div>
+`;

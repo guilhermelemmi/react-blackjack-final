@@ -1,9 +1,19 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Button snapshot 1`] = `
+exports[`Button Primary button matches snapshot 1`] = `
 <div>
   <button
     class="button primary"
+  >
+    Click me
+  </button>
+</div>
+`;
+
+exports[`Button Secondary button matches snapshot 1`] = `
+<div>
+  <button
+    class="button secondary"
   >
     Click me
   </button>
