@@ -1,4 +1,4 @@
-import "./styles.css";
+import "./Button.css";
 
 function Button({ children, type, onClick, ...otherProps }) {
   return (

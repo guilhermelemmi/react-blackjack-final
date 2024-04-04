@@ -1,4 +1,4 @@
-import "./styles.css";
+import "./HandTotal.css";
 
 function HandTotal ({count, label}) {
   return (

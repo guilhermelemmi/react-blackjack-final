@@ -1,6 +1,6 @@
 import { DEALER, PLAYER, PUSH } from "../constants";
 
-function getCardValue(card) {
+export function getCardValue(card) {
   switch (card) {
     case 13:
     case 12:

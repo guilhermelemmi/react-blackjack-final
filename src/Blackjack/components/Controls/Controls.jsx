@@ -1,5 +1,5 @@
-import Button from "../Button/Button";
-import "./styles.css";
+import Button from "../Button";
+import "./Controls.css";
 
 function Controls({ hit, stand }) {
   return (

@@ -5,6 +5,10 @@
   margin-right: 30px;
 }
 
+.hand div {
+  margin-left: -30%;
+}
+
 .hand div:first-child {
   margin-left: 0;
 }

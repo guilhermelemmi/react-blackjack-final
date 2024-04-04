@@ -6,7 +6,6 @@ export const createInitialState = () => ({
   deck: new Deck(),
   playerHand: [],
   dealerHand: [],
-  isPlayerTurn: true,
   gameStatus: GAME_STATUS.INTRO,
   handWinner: null,
 });

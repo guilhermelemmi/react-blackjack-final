@@ -1,6 +1,6 @@
 import { DEALER, PLAYER } from "../../constants";
-import Button from "../Button/Button";
-import "./styles.css";
+import Button from "../Button";
+import "./Result.css";
 
 function Result({ handWinner, onRestart, onContinue }) {
   return (

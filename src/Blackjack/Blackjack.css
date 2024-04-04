@@ -35,7 +35,7 @@ button:active {
   text-align: center;
   background: #064e14 url(./assets/felt.webp) repeat 0 0;
   min-height: 100vh;
-  padding: 20px;
+  /* padding: 20px; */
   display: flex;
   flex-direction: column;
   justify-content: space-between;

@@ -1,23 +1,23 @@
 import { useEffect, useReducer } from "react";
 import { GAME_ACTIONS, GAME_STATUS } from "./constants";
-import GameTable from "./components/GameTable/GameTable";
-import MainMenu from "./components/MainMenu/MainMenu";
-import Result from "./components/Result/Result";
+import GameTable from "./components/GameTable";
+import MainMenu from "./components/MainMenu";
+import Result from "./components/Result";
 import gameReducer, { createInitialState } from "./reducers/gameReducer";
 import { countHandValue } from "./utils/gameUtils";
 import useGameCallbacks from "./hooks/useGameCallbacks";
 import useDealCards from "./hooks/useDealCards";
 import useDealerActions from "./hooks/useDealerActions";
-import "./styles.css";
+import "./Blackjack.css";
 
-function Blackjack () {
+function Blackjack ({ initialState }) {
   const [{
     dealerHand,
     deck,
     gameStatus,
     handWinner,
     playerHand,
-  }, dispatch] = useReducer(gameReducer, null, createInitialState);
+  }, dispatch] = useReducer(gameReducer, null, initialState ? () => initialState : createInitialState);
 
   const playerCount = countHandValue(playerHand);
   const dealerCount = countHandValue(dealerHand.filter((card, i) => i > 0 || gameStatus !== GAME_STATUS.PLAY));

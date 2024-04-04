@@ -1,9 +1,9 @@
-import Card from "../Card/Card";
-import Controls from "../Controls/Controls";
-import DeckCounter from "../DeckCounter/DeckCounter";
-import Hand from "../Hand/Hand";
-import HandTotal from "../HandTotal/HandTotal";
-import "./styles.css";
+import Card from "../Card";
+import Controls from "../Controls";
+import DeckCounter from "../DeckCounter";
+import Hand from "../Hand";
+import HandTotal from "../HandTotal";
+import "./GameTable.css";
 
 function GameTable({
   dealerCount,
@@ -16,9 +16,9 @@ function GameTable({
   stand,
 }) {
   return (
-    <div>
+    <div className="gameTable">
       <section className="gameTableSection">
-        <Hand>
+        <Hand data-test-id="dealerHand">
           {dealerHand.map(({ suit, rank }, i) => (
             <Card
               key={`${suit}_${rank}`}
@@ -34,7 +34,7 @@ function GameTable({
         </div>
       </section>
       <section className="gameTableSection playerSection">
-        <Hand>
+        <Hand data-test-id="playerHand">
           {playerHand.map(({ suit, rank }) => (
             <Card key={`${suit}_${rank}`} suit={suit} rank={rank} />
           ))}

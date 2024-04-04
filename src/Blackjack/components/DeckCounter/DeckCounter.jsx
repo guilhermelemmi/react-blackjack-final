@@ -1,5 +1,5 @@
 import DeckSVG from "../../assets/DeckSVG";
-import "./styles.css";
+import "./DeckCounter.css";
 
 function DeckCounter({ count }) {
   return <div className="deckCounter">

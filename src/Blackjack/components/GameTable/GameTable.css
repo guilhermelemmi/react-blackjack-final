@@ -1,3 +1,7 @@
+.gameTable {
+  padding: 20px;
+}
+
 .gameTableSection {
   display: flex;
   align-items: flex-end;
