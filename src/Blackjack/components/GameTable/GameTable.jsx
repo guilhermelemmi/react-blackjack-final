@@ -18,7 +18,7 @@ function GameTable({
   return (
     <div className="gameTable">
       <section className="gameTableSection">
-        <Hand data-test-id="dealerHand">
+        <Hand>
           {dealerHand.map(({ suit, rank }, i) => (
             <Card
               key={`${suit}_${rank}`}
@@ -34,7 +34,7 @@ function GameTable({
         </div>
       </section>
       <section className="gameTableSection playerSection">
-        <Hand data-test-id="playerHand">
+        <Hand>
           {playerHand.map(({ suit, rank }) => (
             <Card key={`${suit}_${rank}`} suit={suit} rank={rank} />
           ))}

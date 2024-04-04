@@ -1,8 +1,8 @@
 import "./Hand.css";
 
-function Hand({ children, ...otherProps }) {
+function Hand({ children }) {
   return (
-    <div className="hand" {...otherProps} >
+    <div className="hand" >
       {children}
     </div>
   );
