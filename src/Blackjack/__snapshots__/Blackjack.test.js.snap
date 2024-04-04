@@ -32,7 +32,7 @@ exports[`Blackjack It matches snapshot after cards are dealt 1`] = `
             class="deckCounter"
           >
             <p>
-              52
+              0
             </p>
             <svg
               fill="#dedede"
