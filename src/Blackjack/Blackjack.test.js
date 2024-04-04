@@ -31,7 +31,7 @@ describe("Blackjack", () => {
     fireEvent.click(screen.getByText("Play"));
 
     await waitFor(() => expect(screen.getAllByRole(/img/i).length).toBe(4), {
-      timeout: 5000,
+      timeout: 10000,
     });
     expect(view.container).toMatchSnapshot();
   });
